@@ -24,7 +24,7 @@ public class TestBase {
 
     }
 
-    @AfterClass(enabled = true)
+    @AfterClass(enabled = false)
     public void tearDown(){
         wd.quit();
 
