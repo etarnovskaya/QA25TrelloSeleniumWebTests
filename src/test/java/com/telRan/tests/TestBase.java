@@ -12,7 +12,7 @@ public class TestBase {
     WebDriver wd;
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() throws InterruptedException {
         //ctreate ne instance of WebDriver (ex. open Chrome Browser)
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -20,6 +20,7 @@ public class TestBase {
 
         //open Site
         wd.navigate().to("https://trello.com/");
+        login("rochman.elena@gmail.com", "12345.com");
 
     }
 
