@@ -11,7 +11,7 @@ public class BoardCreationTests extends TestBase {
         app.header().selectCreateBoard();
         app.board().fillBoardForm("new qa25 board", "public");
         app.board().confirmBoardCreation();
-        app.header().returnOnHomePage();
+        app.header().returnOnHomePageFromBoard();
         int after = app.board().getBoardsCount();
         System.out.println("was: " + before + " now: " + after);
         Assert.assertEquals(after, before+1);
@@ -24,7 +24,7 @@ public class BoardCreationTests extends TestBase {
         app.header().selectCreateBoard();
         app.board().fillBoardForm("qa25-board", "private");
         app.board().confirmBoardCreation();
-        app.header().returnOnHomePage();
+        app.header().returnOnHomePageFromBoard();
         int after = app.board().getBoardsCount();
         System.out.println("was: " + before + " now: " + after);
         Assert.assertEquals(after, before+1);

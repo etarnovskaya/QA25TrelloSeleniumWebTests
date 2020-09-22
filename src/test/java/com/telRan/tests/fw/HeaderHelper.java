@@ -16,8 +16,17 @@ public class HeaderHelper extends HelperBase{
         click(By.xpath("//button[@data-test-id='header-create-board-button']"));
     }
 
-    public void returnOnHomePage() {
+    public void selectCreateTeam() {
+        click(By.xpath("//button[@data-test-id='header-create-team-button']"));
+    }
+
+    public void returnOnHomePageFromBoard() {
         waitForElement(By.cssSelector(".mod-list-add-button"), 30);
+        click(By.cssSelector("[data-test-id='header-home-button']"));
+    }
+
+    public void returnOnHomePageFromTeam() {
+        waitForElement(By.cssSelector(".tabbed-pane-header-content"), 30);
         click(By.cssSelector("[data-test-id='header-home-button']"));
     }
 
