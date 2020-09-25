@@ -11,6 +11,8 @@ public class BoardModificationTests extends TestBase{
         app.board().clickOnTheFirstBoard();
         //change name
         app.board().renameBoard(new Board().withBoardName("renamedBoard"));
+        app.header().returnOnHomePageFromBoard();
+
     }
 
 }

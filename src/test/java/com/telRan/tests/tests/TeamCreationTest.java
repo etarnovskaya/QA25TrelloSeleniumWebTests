@@ -1,6 +1,7 @@
 package com.telRan.tests.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 public class TeamCreationTest extends TestBase {
@@ -19,7 +20,12 @@ public class TeamCreationTest extends TestBase {
 
         int after = app.team().getTeamCount();
 
-        Assert.assertEquals(after, before);
+        Assert.assertEquals(after, before+1);
 
+    }
+
+    @AfterClass
+    public void postActions(){
+        app.leftNav().returnToBoardsPage();
     }
 }
