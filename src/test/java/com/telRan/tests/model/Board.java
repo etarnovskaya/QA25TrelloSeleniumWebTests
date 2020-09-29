@@ -2,7 +2,7 @@ package com.telRan.tests.model;
 
 public class Board {
     private  String boardName;
-    private  String teamVisibility;
+    private  String boardVisibility;
 
     public Board withBoardName(String boardName) {
         this.boardName = boardName;
@@ -10,7 +10,7 @@ public class Board {
     }
 
     public Board withTeamVisibility(String teamVisibility) {
-        this.teamVisibility = teamVisibility;
+        this.boardVisibility = teamVisibility;
         return this;
     }
 
@@ -18,7 +18,7 @@ public class Board {
         return boardName;
     }
 
-    public String getTeamVisibility() {
-        return teamVisibility;
+    public String getBoardVisibility() {
+        return boardVisibility;
     }
 }

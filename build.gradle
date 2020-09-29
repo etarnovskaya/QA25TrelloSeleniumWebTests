@@ -14,9 +14,18 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 }
 
-test{
+task testRegression(type:Test){
     useTestNG{
-        suites 'src/test/resources/testng.xml'
+        suites 'src/test/resources/testng-regression-without-login.xml'
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task testBoards(type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-boards.xml'
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"

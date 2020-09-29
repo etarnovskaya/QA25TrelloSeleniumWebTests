@@ -4,12 +4,8 @@ import com.telRan.tests.model.Board;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.sql.Time;
-import java.util.concurrent.TimeUnit;
 
 public class BoardHelper extends  HelperBase{
     public BoardHelper(WebDriver wd) {
@@ -29,7 +25,7 @@ public class BoardHelper extends  HelperBase{
 
         //public/private ("" + var + "")
         click(By.cssSelector("button._1Lkx3EjS3wCrs7"));
-        click(By.xpath("//*[@name='" + board.getTeamVisibility() + "']/../.."));
+        click(By.xpath("//*[@name='" + board.getBoardVisibility() + "']/../.."));
 
 
 //        //confirmPublic
@@ -37,7 +33,7 @@ public class BoardHelper extends  HelperBase{
 //            click(By.cssSelector(".X6LMWvod566P68 button"));
 //        }
 
-        if (board.getTeamVisibility().equals("public")) {
+        if (board.getBoardVisibility().equals("public")) {
             click(By.cssSelector(".X6LMWvod566P68 button"));
         }
     }
