@@ -4,6 +4,9 @@ import com.telRan.tests.model.Board;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.sql.Time;
 import java.util.concurrent.TimeUnit;
@@ -40,8 +43,8 @@ public class BoardHelper extends  HelperBase{
     }
     public int getBoardsCount() {
         if(!isElementPresent(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"))){
-           waitForElement(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"), 20);
-           return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
+           waitForElement(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"), 30);
+
         }
 
         return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
@@ -62,5 +65,14 @@ public class BoardHelper extends  HelperBase{
 //        wd.findElement(By.cssSelector(".js-board-name-input")).clear();
         wd.findElement(By.cssSelector(".js-board-name-input"))
                 .sendKeys(board.getBoardName() + System.currentTimeMillis() + Keys.ENTER);
+    }
+
+
+
+    public boolean isOnBoardsPage() {
+        String personalBoards = "//*[@class='icon-lg icon-member']/../../..//li" ;
+        new WebDriverWait(wd, 20)
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(personalBoards)));
+      return  isElementPresent(By.xpath(personalBoards));
     }
 }
