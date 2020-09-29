@@ -21,4 +21,12 @@ public class Board {
     public String getBoardVisibility() {
         return boardVisibility;
     }
+
+    @Override
+    public String toString() {
+        return "Board{" +
+                "boardName='" + boardName + '\'' +
+                ", boardVisibility='" + boardVisibility + '\'' +
+                '}';
+    }
 }
