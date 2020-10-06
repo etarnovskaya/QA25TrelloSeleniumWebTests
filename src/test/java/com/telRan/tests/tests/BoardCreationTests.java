@@ -12,36 +12,11 @@ import java.util.Iterator;
 import java.util.List;
 
 public class BoardCreationTests extends TestBase {
-    @DataProvider
-    public Iterator<Object[]>validBoards(){
-        List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"1DPboard","public"});
-        list.add(new Object[]{"1D-Pboard","public"});
-        list.add(new Object[]{"1","public"});
-        list.add(new Object[]{"!@#$%","public"});
 
-        return list.iterator();
-    }
-
-    @DataProvider
-    public Iterator<Object[]>validBoardsFromCSV() throws IOException {
-        List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(
-                new FileReader(new File("src/test/resources/boards.csv")));
-        String line = reader.readLine();
-        while (line!=null){
-            String[] split = line.split(",");
-            list.add(new Object[]{new Board().withBoardName(split[0])
-                    .withTeamVisibility(split[1])});
-            line = reader.readLine();
-        }
-
-        return list.iterator();
-    }
 
     @BeforeClass
     public void isOnBoardsPage(){
-                try {
+        try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -51,7 +26,7 @@ public class BoardCreationTests extends TestBase {
        };
     }
 
-    @Test(dataProvider="validBoardsFromCSV")
+    @Test(dataProvider="validBoardsFromCSV", dataProviderClass = DataProvisers.class)
     public void boardCreationTestFromDataProviderCSV(Board board) {
 
         int before = app.board().getBoardsCount();
@@ -68,7 +43,7 @@ public class BoardCreationTests extends TestBase {
         Assert.assertEquals(after, before+1);
     }
 
-    @Test(dataProvider="validBoards")
+    @Test(dataProvider="validBoards", dataProviderClass = DataProvisers.class)
     public void boardCreationTestFromDataProvider(String boardName, String boardVisibility) {
 
         int before = app.board().getBoardsCount();
@@ -93,7 +68,7 @@ public class BoardCreationTests extends TestBase {
         app.header().clickOnPlusButton();
         app.header().selectCreateBoard();
         app.board().fillBoardForm(new Board()
-                .withBoardName("new qa25 board")
+                .withBoardName("new qa24 board")
                 .withTeamVisibility("public"));
         app.board().confirmBoardCreation();
         app.header().returnOnHomePageFromBoard();

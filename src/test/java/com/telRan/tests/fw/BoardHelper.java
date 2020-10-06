@@ -43,7 +43,7 @@ public class BoardHelper extends  HelperBase{
 
         }
 
-        return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
+       return wd.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size()-1;
     }
 
 
