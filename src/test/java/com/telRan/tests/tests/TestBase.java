@@ -33,7 +33,7 @@ public class TestBase {
     }
 
 
-    @AfterSuite(enabled = true)
+    @AfterSuite(enabled = false)
     public void tearDown() {
         app.stop();
 

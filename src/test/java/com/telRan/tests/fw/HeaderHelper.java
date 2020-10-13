@@ -25,6 +25,14 @@ public class HeaderHelper extends HelperBase{
         click(By.cssSelector("[data-test-id='header-home-button']"));
     }
 
+    public void returnOnHomePageAfterBoardDeleted() {
+        waitForElement(By.cssSelector(".big-message.quiet"), 30);
+        click(By.cssSelector("[data-test-id='header-home-button']"));
+        if(isElementPresent(By.cssSelector(".big-message.quiet"))){
+            click(By.cssSelector("[data-test-id='header-home-button']"));
+        }
+    }
+
     public void returnOnHomePageFromTeam() {
         waitForElement(By.cssSelector(".tabbed-pane-header-content"), 30);
         click(By.cssSelector("[data-test-id='header-home-button']"));
@@ -48,4 +56,7 @@ public class HeaderHelper extends HelperBase{
     }
 
 
+    public void openProfile() {
+        click(By.cssSelector("[data-test-id='header-member-menu-profile']"));
+    }
 }

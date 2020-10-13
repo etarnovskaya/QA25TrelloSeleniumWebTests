@@ -4,6 +4,7 @@ import com.telRan.tests.model.Board;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -71,4 +72,42 @@ public class BoardHelper extends  HelperBase{
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath(personalBoards)));
       return  isElementPresent(By.xpath(personalBoards));
     }
+
+    public void permanentlyDeleteBoard() {
+        click(By.cssSelector(".js-delete"));
+        confirm();
+    }
+
+    public void initBoardDeletionInMoreMenu() {
+        clickCloseBoardFromMoreMenu();
+        confirm();
+    }
+
+    public void clickCloseBoardFromMoreMenu() {
+        click(By.cssSelector(".js-close-board"));
+    }
+
+    public void clickMoreButton() {
+      //  WebDriverWait wait = new WebDriverWait(wd, 30);
+//
+        if(wd.findElement(By.cssSelector(".board-menu-header-back-button")).isDisplayed()){
+            click(By.cssSelector(".board-menu-header-back-button"));
+        }
+//        else if(wd.findElement(By.cssSelector(".mod-show-menu.js-show-sidebar")).isDisplayed()){
+//            click(By.cssSelector(".mod-show-menu.js-show-sidebar")
+//            );
+//
+//        }
+        click(By.cssSelector(".js-open-more"));
+
+    }
+
+    public void openFirstPersonalBoard() {
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
+    }
+
+    public void confirm() {
+        click(By.cssSelector(".js-confirm"));
+    }
+
 }

@@ -14,6 +14,7 @@ public class ApplicationManager {
     HeaderHelper header;
     TeamHelper team;
     LeftNavigationMenuPage leftNav;
+    ProfileHelper profile;
 
     private String browser;
 
@@ -39,6 +40,7 @@ public class ApplicationManager {
         header = new HeaderHelper(wd);
         team = new TeamHelper(wd);
         leftNav = new LeftNavigationMenuPage(wd);
+        profile = new ProfileHelper(wd);
     }
 
     public TeamHelper team() {
@@ -51,6 +53,10 @@ public class ApplicationManager {
 
     public BoardHelper board() {
         return board;
+    }
+
+    public ProfileHelper profile() {
+        return profile;
     }
 
     public HeaderHelper header() {
