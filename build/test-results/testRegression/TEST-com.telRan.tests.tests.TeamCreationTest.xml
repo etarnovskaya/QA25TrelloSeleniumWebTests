@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.tests.tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-16T08:44:00" hostname="DESKTOP-S1IE1UQ" time="38.466">
+  <properties/>
+  <testcase name="teamCreationFromHeaderTest" classname="com.telRan.tests.tests.TeamCreationTest" time="38.466"/>
+  <system-out><![CDATA[11:44:00 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test teamCreationFromHeaderTest with parameters: []
+11:44:39 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop testteamCreationFromHeaderTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
