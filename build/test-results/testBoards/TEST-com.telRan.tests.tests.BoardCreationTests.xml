@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.tests.tests.BoardCreationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-10-20T16:15:26" hostname="DESKTOP-S1IE1UQ" time="20.674">
+  <properties/>
+  <testcase name="boardCreationTest" classname="com.telRan.tests.tests.BoardCreationTests" time="12.272"/>
+  <testcase name="boardCreationTest2" classname="com.telRan.tests.tests.BoardCreationTests" time="8.392"/>
+  <system-out><![CDATA[19:15:26 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTest with parameters: []
+was: 28 now: 29
+19:15:38 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop testboardCreationTest
+19:15:38 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test boardCreationTest2 with parameters: []
+was: 29 now: 30
+19:15:46 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop testboardCreationTest2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
