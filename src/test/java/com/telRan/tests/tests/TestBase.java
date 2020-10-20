@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
@@ -16,9 +17,9 @@ public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeSuite
-    public void setUp() throws InterruptedException {
+    public void setUp() throws InterruptedException, IOException {
         app.init();
-        app.session().login("rochman.elena@gmail.com", "12345.com");
+
     }
 
     @BeforeMethod

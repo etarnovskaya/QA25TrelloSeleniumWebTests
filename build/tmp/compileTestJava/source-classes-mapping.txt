@@ -1,0 +1,34 @@
+com/telRan/tests/tests/TeamCreationTest.java
+ com.telRan.tests.tests.TeamCreationTest
+com/telRan/tests/fw/ProfileHelper.java
+ com.telRan.tests.fw.ProfileHelper
+com/telRan/tests/model/Board.java
+ com.telRan.tests.model.Board
+com/telRan/tests/tests/TestBase.java
+ com.telRan.tests.tests.TestBase
+com/telRan/tests/fw/LeftNavigationMenuPage.java
+ com.telRan.tests.fw.LeftNavigationMenuPage
+com/telRan/tests/tests/BoardDeletionTests.java
+ com.telRan.tests.tests.BoardDeletionTests
+com/telRan/tests/tests/LoginTrelloTests.java
+ com.telRan.tests.tests.LoginTrelloTests
+com/telRan/tests/fw/TeamHelper.java
+ com.telRan.tests.fw.TeamHelper
+com/telRan/tests/fw/SessionHelper.java
+ com.telRan.tests.fw.SessionHelper
+com/telRan/tests/fw/BoardHelper.java
+ com.telRan.tests.fw.BoardHelper
+com/telRan/tests/fw/ApplicationManager.java
+ com.telRan.tests.fw.ApplicationManager
+com/telRan/tests/tests/UsersProfileModificationTests.java
+ com.telRan.tests.tests.UsersProfileModificationTests
+com/telRan/tests/fw/HeaderHelper.java
+ com.telRan.tests.fw.HeaderHelper
+com/telRan/tests/tests/BoardModificationTests.java
+ com.telRan.tests.tests.BoardModificationTests
+com/telRan/tests/fw/HelperBase.java
+ com.telRan.tests.fw.HelperBase
+com/telRan/tests/tests/DataProvisers.java
+ com.telRan.tests.tests.DataProvisers
+com/telRan/tests/tests/BoardCreationTests.java
+ com.telRan.tests.tests.BoardCreationTests

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.tests.tests.BoardModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-20T16:15:46" hostname="DESKTOP-S1IE1UQ" time="2.112">
-  <properties/>
-  <testcase name="modifyBoardTest" classname="com.telRan.tests.tests.BoardModificationTests" time="2.112"/>
-  <system-out><![CDATA[19:15:46 [Test worker] INFO  com.telRan.tests.tests.TestBase - start test modifyBoardTest with parameters: []
-19:15:48 [Test worker] INFO  com.telRan.tests.tests.TestBase - stop testmodifyBoardTest
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
