@@ -21,7 +21,7 @@ public class HeaderHelper extends HelperBase{
     }
 
     public void returnOnHomePageFromBoard() {
-        waitForElement(By.cssSelector(".mod-list-add-button"), 30);
+        waitForElement(By.cssSelector(".js-add-list"), 30);
         click(By.cssSelector("[data-test-id='header-home-button']"));
     }
 
