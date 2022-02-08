@@ -1,0 +1,157 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.telRan.tests.tests",
+    "children" : [ {
+      "name" : "TeamCreationTest",
+      "children" : [ {
+        "name" : "teamCreationFromHeaderTest",
+        "uid" : "5b06c753cbbd8bc7",
+        "parentUid" : "25a9b807145664371c38d4f0a7fd8fa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644314552577,
+          "stop" : 1644314589727,
+          "duration" : 37150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "postActions",
+        "uid" : "f42a79c03e5a4168",
+        "parentUid" : "25a9b807145664371c38d4f0a7fd8fa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644314619761,
+          "stop" : 1644314619762,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25a9b807145664371c38d4f0a7fd8fa1"
+    }, {
+      "name" : "BoardCreationTests",
+      "children" : [ {
+        "name" : "isOnBoardsPage",
+        "uid" : "19a1b4d13e2ea519",
+        "parentUid" : "782c54226677cfa0205c4b796afea8ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644314659822,
+          "stop" : 1644314659832,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "boardCreationTest",
+        "uid" : "f1af2ce9a5f389a7",
+        "parentUid" : "782c54226677cfa0205c4b796afea8ff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1644314659844,
+          "stop" : 1644314659844,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "boardCreationTest2",
+        "uid" : "9864fef17e84c24a",
+        "parentUid" : "782c54226677cfa0205c4b796afea8ff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1644314659849,
+          "stop" : 1644314659849,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "boardCreationTestFromDataProvider",
+        "uid" : "b989d9c5f9b016ca",
+        "parentUid" : "782c54226677cfa0205c4b796afea8ff",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1644314659874,
+          "stop" : 1644314659875,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "boardCreationTestFromDataProviderCSV",
+        "uid" : "2dd632176adc407e",
+        "parentUid" : "782c54226677cfa0205c4b796afea8ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644314659883,
+          "stop" : 1644314659883,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "782c54226677cfa0205c4b796afea8ff"
+    }, {
+      "name" : "BoardModificationTests",
+      "children" : [ {
+        "name" : "modifyBoardTest",
+        "uid" : "fd1c7cb9c713e00b",
+        "parentUid" : "7f7bdb11829120985a8b0c2ba11a7277",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644314659898,
+          "stop" : 1644314689930,
+          "duration" : 30032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f7bdb11829120985a8b0c2ba11a7277"
+    } ],
+    "uid" : "com.telRan.tests.tests"
+  } ]
+}

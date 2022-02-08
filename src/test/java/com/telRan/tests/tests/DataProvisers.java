@@ -1,5 +1,7 @@
 package com.telRan.tests.tests;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.telRan.tests.model.Board;
 import org.testng.annotations.DataProvider;
 
@@ -10,6 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class DataProvisers {
     @DataProvider
@@ -37,5 +40,22 @@ public class DataProvisers {
         }
 
         return list.iterator();
+    }
+
+    @DataProvider
+    public Iterator<Object[]>validBoardsFromJson() throws IOException {
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(
+                new FileReader(new File("src/test/resources/boards.json")));
+        String json ="";
+                String line = reader.readLine();
+        while (line!=null){
+            json += line;
+            line = reader.readLine();
+        }
+        Gson gson = new Gson();
+        List<Board>boards = gson.fromJson(json, new TypeToken<List<Board>>(){}.getType());
+
+        return boards.stream().map((g) -> new Object[] {g}).collect(Collectors.toList()).iterator(); 
     }
 }

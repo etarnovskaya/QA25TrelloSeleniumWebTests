@@ -1,0 +1,81 @@
+[ {
+  "uid" : "f42a79c03e5a4168",
+  "name" : "postActions",
+  "time" : {
+    "start" : 1644314619761,
+    "stop" : 1644314619762,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19a1b4d13e2ea519",
+  "name" : "isOnBoardsPage",
+  "time" : {
+    "start" : 1644314659822,
+    "stop" : 1644314659832,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9864fef17e84c24a",
+  "name" : "boardCreationTest2",
+  "time" : {
+    "start" : 1644314659849,
+    "stop" : 1644314659849,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fd1c7cb9c713e00b",
+  "name" : "modifyBoardTest",
+  "time" : {
+    "start" : 1644314659898,
+    "stop" : 1644314689930,
+    "duration" : 30032
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2dd632176adc407e",
+  "name" : "boardCreationTestFromDataProviderCSV",
+  "time" : {
+    "start" : 1644314659883,
+    "stop" : 1644314659883,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1af2ce9a5f389a7",
+  "name" : "boardCreationTest",
+  "time" : {
+    "start" : 1644314659844,
+    "stop" : 1644314659844,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b989d9c5f9b016ca",
+  "name" : "boardCreationTestFromDataProvider",
+  "time" : {
+    "start" : 1644314659874,
+    "stop" : 1644314659875,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5b06c753cbbd8bc7",
+  "name" : "teamCreationFromHeaderTest",
+  "time" : {
+    "start" : 1644314552577,
+    "stop" : 1644314589727,
+    "duration" : 37150
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

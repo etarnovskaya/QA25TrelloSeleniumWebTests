@@ -1,0 +1,162 @@
+{
+  "59895e5f5754a6d46b78562e6e4baca6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1af2ce9a5f389a7",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='icon-lg icon-member']/../../..//li (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1644314659844,
+        "stop" : 1644314659844,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9a69410e8313d1a47a844b9671a7525a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9864fef17e84c24a",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='icon-lg icon-member']/../../..//li (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1644314659849,
+        "stop" : 1644314659849,
+        "duration" : 0
+      }
+    } ]
+  },
+  "da26d459e60d846dadff05d553b03511" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b06c753cbbd8bc7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-test-id='header-home-button']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-KNEBFI3U', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\rochm\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9d493c39cae350a5a81b302fa845579e\n*** Element info: {Using=css selector, value=[data-test-id='header-home-button']}",
+      "time" : {
+        "start" : 1644314552577,
+        "stop" : 1644314589727,
+        "duration" : 37150
+      }
+    } ]
+  },
+  "b498045b2ee15cd7ae1c4696ddce9d56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd1c7cb9c713e00b",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class='icon-lg icon-member']/../../..//li\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'LAPTOP-KNEBFI3U', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\rochm\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9d493c39cae350a5a81b302fa845579e\n*** Element info: {Using=xpath, value=//*[@class='icon-lg icon-member']/../../..//li}",
+      "time" : {
+        "start" : 1644314659898,
+        "stop" : 1644314689930,
+        "duration" : 30032
+      }
+    } ]
+  },
+  "b3a2707636d3f17300b72d90f2fdd0d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b989d9c5f9b016ca",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='icon-lg icon-member']/../../..//li (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1644314659874,
+        "stop" : 1644314659875,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d873631cec81e20ba65444776cfa6f5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dd632176adc407e",
+      "status" : "broken",
+      "statusDetails" : "\nMethod public void com.telRan.tests.tests.BoardCreationTests.boardCreationTestFromDataProviderCSV(com.telRan.tests.model.Board) requires a @DataProvider named : validBoardsFromcCSV in class com.telRan.tests.tests.DataProvisers",
+      "time" : {
+        "start" : 1644314659883,
+        "stop" : 1644314659883,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2f254902ecf5a80a6a2caaa956a56b3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f42a79c03e5a4168",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.cssSelector: .home-left-sidebar-container .icon-board (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1644314619761,
+        "stop" : 1644314619762,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f01fd11ea2f9e89a30748e6553193b88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19a1b4d13e2ea519",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='icon-lg icon-member']/../../..//li (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1644314659822,
+        "stop" : 1644314659832,
+        "duration" : 10
+      }
+    } ]
+  }
+}

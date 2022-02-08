@@ -26,7 +26,7 @@ public class BoardCreationTests extends TestBase {
        };
     }
 
-    @Test(dataProvider="validBoardsFromCSV", dataProviderClass = DataProvisers.class)
+    @Test(dataProvider="validBoardsFromcCSV", dataProviderClass = DataProvisers.class)
     public void boardCreationTestFromDataProviderCSV(Board board) {
 
         int before = app.board().getBoardsCount();

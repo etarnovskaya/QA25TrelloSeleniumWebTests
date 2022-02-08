@@ -1,0 +1,161 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "RegressionTestsWithoutLogin",
+    "children" : [ {
+      "name" : "Regression",
+      "children" : [ {
+        "name" : "com.telRan.tests.tests.TeamCreationTest",
+        "children" : [ {
+          "name" : "teamCreationFromHeaderTest",
+          "uid" : "5b06c753cbbd8bc7",
+          "parentUid" : "7e72b7deaabd2f8af1517178444934c5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644314552577,
+            "stop" : 1644314589727,
+            "duration" : 37150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "postActions",
+          "uid" : "f42a79c03e5a4168",
+          "parentUid" : "7e72b7deaabd2f8af1517178444934c5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644314619761,
+            "stop" : 1644314619762,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7e72b7deaabd2f8af1517178444934c5"
+      }, {
+        "name" : "com.telRan.tests.tests.BoardCreationTests",
+        "children" : [ {
+          "name" : "isOnBoardsPage",
+          "uid" : "19a1b4d13e2ea519",
+          "parentUid" : "2df7b195171bd47f83c8b65396b78faa",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644314659822,
+            "stop" : 1644314659832,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "boardCreationTest",
+          "uid" : "f1af2ce9a5f389a7",
+          "parentUid" : "2df7b195171bd47f83c8b65396b78faa",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1644314659844,
+            "stop" : 1644314659844,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "boardCreationTest2",
+          "uid" : "9864fef17e84c24a",
+          "parentUid" : "2df7b195171bd47f83c8b65396b78faa",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1644314659849,
+            "stop" : 1644314659849,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "boardCreationTestFromDataProvider",
+          "uid" : "b989d9c5f9b016ca",
+          "parentUid" : "2df7b195171bd47f83c8b65396b78faa",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1644314659874,
+            "stop" : 1644314659875,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 3,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "boardCreationTestFromDataProviderCSV",
+          "uid" : "2dd632176adc407e",
+          "parentUid" : "2df7b195171bd47f83c8b65396b78faa",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644314659883,
+            "stop" : 1644314659883,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2df7b195171bd47f83c8b65396b78faa"
+      }, {
+        "name" : "com.telRan.tests.tests.BoardModificationTests",
+        "children" : [ {
+          "name" : "modifyBoardTest",
+          "uid" : "fd1c7cb9c713e00b",
+          "parentUid" : "20b928f66f17c85f80b39324b15578da",
+          "status" : "broken",
+          "time" : {
+            "start" : 1644314659898,
+            "stop" : 1644314689930,
+            "duration" : 30032
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "20b928f66f17c85f80b39324b15578da"
+      } ],
+      "uid" : "db16cdf41b08583149e110b2695b8a00"
+    } ],
+    "uid" : "d37f42586cfeedd678289a63a6610798"
+  } ]
+}

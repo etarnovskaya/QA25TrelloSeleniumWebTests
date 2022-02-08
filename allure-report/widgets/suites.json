@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "d37f42586cfeedd678289a63a6610798",
+    "name" : "RegressionTestsWithoutLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}
